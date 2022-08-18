@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1b4a75;
+    color:aliceblue;
 }
 
 #mainContainer {
@@ -23,28 +25,32 @@
     height: 10em;
     width: 80%;
     padding: 2%;
-    margin: 1%;
+    margin: 3%;
 }
 
 #translate {
-    margin: 1%;
+    margin: 2%;
     padding: 1%;
+    background-color: #1b4a75;
+    color: aliceblue;
 }
 
 #outputDiv {
     height: 10em;
     width: 80%;
     padding: 2%;
-    margin: 1%;
+    margin: 2%;
     border: solid;
 }
 
 #footer {
+    color:aliceblue;
     padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #1b4a75;
     
 }
 
@@ -52,4 +58,5 @@
     text-align: center;
     width: 80%;
     padding: 1%;
+    
 }
