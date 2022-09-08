@@ -5,7 +5,7 @@
 }
 
 #header {
-    padding: 2%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,38 +14,105 @@
 }
 
 #mainContainer {
-    margin: 2%;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+#mainContainer p {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 #inputTxt{
-    height: 10em;
+    height: fit-content;
+    min-height: 100px;
     width: 80%;
-    padding: 2%;
-    margin: 3%;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #1b4a75;
+    border-width: 3px;
+    color: #1b4a75;
+    font-size: 20px;
+}
+
+#inputTxt:hover {
+    height: fit-content;
+    min-height: 100px;
+    width: 80%;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #1b4a75;
+    border-width: 3px;
+    color: #1b4a75;
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.6s ease;
+    font-size: 20px;
 }
 
 #translate {
-    margin: 2%;
-    padding: 1%;
+    padding: 10px;
     background-color: #1b4a75;
     color: aliceblue;
+    border-radius: 10px;
+
+}
+
+#translate:hover {
+    padding: 10px;
+    background-color: #1b4a75;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    transition: all 0.6s ease;
 }
 
 #outputDiv {
-    height: 10em;
+    height: fit-content;
+    min-height: 100px;
     width: 80%;
-    padding: 2%;
-    margin: 2%;
+    padding: 20px;
+    margin: 20px;
     border: solid;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #1b4a75;
+    border-width: 3px;
+    color: #1b4a75;
+    font-size: 20px;
+}
+
+#outputDiv:hover {
+    height: fit-content;
+    min-height: 100px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #1b4a75;
+    border-width: 3px;
+    color: #1b4a75;
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.6s ease;
+    font-size: 20px;
 }
 
 #footer {
     color:aliceblue;
-    padding: 2%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +124,6 @@
 #footer p {
     text-align: center;
     width: 80%;
-    padding: 1%;
+    padding: 10px;
     
 }
